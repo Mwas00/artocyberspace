@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .about {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  nav ul li a:hover {
+    color: orange;
+  }
+
+  .price {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128c7e; /* Darker WhatsApp green color on hover */
+  }
+  
+  .whatsapp-button img {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .whatsapp-button span {
+    vertical-align: middle;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 5px auto;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f4f4f4;
+  }
+  
+  tbody td:first-child {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  .about,
+  .services,
+  .why-choose-us {
+    margin-bottom: 40px;
+  }
+  
+  .about h2,
+  .services h2,
+  .why-choose-us h2 {
+    color: #007bff;
+  }
+  
+  .service {
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    color: #007bff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
